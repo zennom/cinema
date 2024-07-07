@@ -1,0 +1,35 @@
+[
+    {
+        "codigo": 1,
+        "titulo": "A Pele que Habito",
+        "duracao": 2,
+        "atores": [
+            "Antonio Banderas",
+            "Elena Anaya"
+        ],
+        "anoDeLancamento": 2011,
+        "emCartaz": false
+    },
+    {
+        "codigo": 2,
+        "titulo": "Ex-Machina Instinto Artificial",
+        "duracao": 2,
+        "atores": [
+            "Alicia Vikander",
+            "Oscar Isaac"
+        ],
+        "anoDeLancamento": 2014,
+        "emCartaz": true
+    },
+    {
+        "codigo": 3,
+        "titulo": "A Origem",
+        "duracao": 3,
+        "atores": [
+            "Leonardo DiCaprio",
+            "Cillian Murphy"
+        ],
+        "anoDeLancamento": 2010,
+        "emCartaz": false
+    }
+]
