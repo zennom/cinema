@@ -16,6 +16,23 @@ function adicionarFilme(codigo, titulo, duracao, atores, ano, cartaz) {
     fs.writeFileSync('./database/catalogo.json' , json);
 }
 
+/* 
+
+function adicionarFilme(codigo,titulo,duracao,atores,anoDeLancamento,emCartaz){
+    const novoFilme = {
+        codigo: codigo,
+        titulo: titulo,
+        duracao: duracao,
+        atores: atores,
+        anoDeLancamento: anoDeLancamento,
+        emCartaz : emCartaz
+    }
+    catalogo.filmes.push(novoFilme)
+}
+
+
+*/
+
 function buscarFilme(codigo) {
     let response = 'Não Encontrado'
     for (let i = 0; i < catalogo.length; i++) {
